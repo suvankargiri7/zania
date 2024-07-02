@@ -1,0 +1,3 @@
+[submodule "mania-test"]
+	path = mania-test
+	url = https://github.com/suvankargiri7/mania-test.git
