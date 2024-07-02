@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  react:
+    build: ./zapp
+    container_name: zania-ui
+    ports:
+      - '4200:4200'
+    networks:
+      - zania_network
+networks:
+  zania_network:
+    driver: bridge
